@@ -7,11 +7,10 @@ This project involves analyzing airline data to uncover insights on flight delay
 The dataset used for this analysis is sourced from [Kaggle](https://www.kaggle.com/datasets/darrendube/airlinedataset), and includes information such as:
 
 - Airline names
-- Flight delays
-- Departure and arrival times
-- Distance
-- Weather impact
-- Cancellations, and more
+- Airline age
+- Fleet size
+- Aircraft utlisation
+- Load factor
 
 ## 🛠️ Technologies Used
 
@@ -23,16 +22,15 @@ The dataset used for this analysis is sourced from [Kaggle](https://www.kaggle.c
 
 ## 🔍 Key Insights
 
-- Identified airlines with the most delays.
-- Analyzed peak delay times and their causes.
-- Visualized cancellation rates and reasons.
-- Explored correlations between weather and delays.
+- Identified top airlines according to their fleet size.
+- Analyzed fleet distribution stats.
+- Visualized average fleet age by region.
+- Explored trends and patterns.
 
 ## 📊 Sample Visualizations
 
-- Heatmaps of delays by time of day
-- Bar charts showing delays per airline
-- Pie chart for cancellation reasons
+- Boxplotted outliers in fleet size.
+- Bar charts showing nulls.
 
 ## 🚀 How to Run
 
